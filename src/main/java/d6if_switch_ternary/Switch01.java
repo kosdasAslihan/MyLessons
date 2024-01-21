@@ -77,6 +77,8 @@ public class Switch01 {
             default:
                 System.out.println("Gecerli bir gun adi giriniz");
 
+
+
         }
 
     }
