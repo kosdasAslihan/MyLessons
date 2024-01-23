@@ -43,7 +43,7 @@ public class StringManipulations02 {
 
         //Ornek 3: s String’indeki tum rakamlari(0, 1, 2, 3, 4, 5, 6, 7, 8, 9) “*” a ceviriniz
         String s3 = s.replaceAll("[0-9]", "*");
-        System.out.println(s3); //learn Java **** money
+        System.out.println(s3); //learn Java earn **** money
 
         //Ornek 4: “s” String’indeki rakam sayisini bulunuz
         //Rakam haric herseyi silip geri kalanlari saymaliyiz

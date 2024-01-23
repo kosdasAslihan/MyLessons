@@ -24,11 +24,18 @@ public class StringManipulations04 {
         String name = "  ali cAN  ";
         char first = name.trim().toUpperCase().charAt(0);
         System.out.println(first); //A
+        //name yukaridaki ismi alır, trim() sağdaki ve soldaki bosluklari siler, tuUpperCase() tum harfleri buyutur
+        // charAt()'e deger atadıgımızda sadece o indexteki harfi buyuk yazar
 
         char last = name.trim().toUpperCase().split(" ")[1].charAt(0);
+        /*char last = name.trim().toUpperCase().split("\\s+")[1].charAt(0); + ali cAN arasında birden fazla bosluk
+        //varsa o hatayı engeller*/
         System.out.println(last); //C
+        //name yukaridaki ismi alır, trim() sağdaki ve soldaki bosluklari siler, tuUpperCase() tum harfleri buyutur
+        // [0][1] 0'daki ali 1'deki cAN kismini temsil eder o yuzden ikinci kisim olan cAN'i sectik
+        // charAt()'e deger atadıgımızda sadece o indexteki harfi buyuk yazar
 
-        System.out.println("" + first + last); // (first + last) şeklinde yazdığımızda 132 degerini veriyor
+        System.out.println("" + first + last); // AC -(first + last) şeklinde yazdığımızda 132 degerini veriyor
                                                 // cunku char'ın matematiksel degeri vardir.
 
 
