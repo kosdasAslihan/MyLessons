@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class IfStatements02 {
     public static void main(String[] args) {
         /*ornek 1:
-    Kisi erkek ise;
+          Kisi erkek ise;
           i)16 yasindan kucuk ise calismamali
           ii)16 - 65(Dahil) arasi calismali
           iii)65 yasindan buyuk ise emekli olmali
-    Kisi kadin ise;
+          Kisi kadin ise;
          i)18 yasindan kucuk ise calismamali
          ii)18 - 60 (dahil) arasi calismali
          iii)60 yasindan buyuk ise emekli olmali
-   Kisinin cinsiyetine ve yasina bakarak uygun mesaji console'a yaziniz*/
+         Kisinin cinsiyetine ve yasina bakarak uygun mesaji console'a yaziniz*/
 
         Scanner input = new Scanner(System.in);
 

@@ -37,10 +37,10 @@ public class ForLoops01 {
         /*for (Baslangic degeri; Loop calisma kurali; Arttirma/Eksiltme){
             //Calisacak kodlar
         }*/
-
+        System.out.println("-------------------------");
         //ornek:
         //Baslangic degeri;         Loop calisma kurali;           Arttirma/Eksiltme
-        System.out.println("-------------------------");
+
         for (int i = 1;                  i < 5;                           i++){ //i <= 4'de yazilabilirdi. i = i + 1'de yazilabilirdi.
             System.out.println("Hi..!");
         }
@@ -53,12 +53,15 @@ public class ForLoops01 {
         }
         System.out.println("***********************");
         //Ornek 3: 3'den 20'ye kadar tum cift sayilari console’a yazdiriniz(20 dahil)
-        for (int i = 3; i < 20; i++){
+        //1.yol:
+        for (int i = 3; i < 21; i++){
             if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
-
-
+        /*2. yol:
+        for (int i = 4; i < 21; i+=2){
+            System.out.println(i);
+        }*/
     }
 }

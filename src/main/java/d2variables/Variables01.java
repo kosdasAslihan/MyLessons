@@ -7,7 +7,7 @@ public class Variables01 {
         // Java bu satiri okumaz. Kendimize ve baskasina aciklamadir.
 
         /*
-        1) Java dili Strongly Typed'dir, bu nedenle Java'daki her değişken(variable), belirli
+        1) Java dili Strongly Type'dir, bu nedenle Java'daki her değişken(variable), belirli
         veri türü(data type) ile iliskilendirilecektir.
         2) Bir developerin değişkenlere uygun değerlerin atandığından emin olması her zaman gerekir.
         Aksi takdirde hata oluşur.
