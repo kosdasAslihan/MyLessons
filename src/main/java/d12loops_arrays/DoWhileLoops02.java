@@ -1,5 +1,6 @@
 package d12loops_arrays;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class DoWhileLoops02 {
@@ -12,29 +13,28 @@ public class DoWhileLoops02 {
        Username veya password yanlis ise 4 kere "Username ve password'unuzu giriniz" mesaji versin.
        Username veya password 4. kere yanlis girilirse "Hesabiniz bloke olmustur" mesaji vererek islemi tamamlayiniz.
         */
-        Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
 
+       int counter = 0;
 
-        int counter = 0;
+       do{
+           if(counter == 4) {
+               System.out.println("Hesabiniz bloke olmustur.");
+               break;
+           }
+           System.out.println("Lutfen bir username giriniz");
+           String userName = input.next();
 
-        do {
-            if (counter == 4) {
-                System.out.println("Hesabiniz bloke olmustur.");
-                break;
-            }
-            System.out.println("Lutfen username giriniz");
-            String userName = input.next();
+           System.out.println("Lutfen password giriniz");
+           String password = input.next();
 
-            System.out.println("Lutfen password giriniz");
-            String password = input.next();
+           if(userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("pwd123")){
+               System.out.println("Hesabiniza hos geldiniz");
+               break;
+           }
+           counter++;
 
-            if(userName.equals("admin") && password.equals("pwd123")){
-                System.out.println("Hesabiniza hos geldiniz");
-                break;
-            }
-            counter++;
-
-        }while (true); //sonsuz dongu olusturduk. Icerden kirilmadigi surece calisacak
+       }while (true); //sonsuz dongu olusturduk. Icerden kirilmadigi surece calisacak
 
     }
 }

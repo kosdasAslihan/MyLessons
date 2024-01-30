@@ -16,13 +16,11 @@ public class WhileLoops02 {
         int num = input.nextInt();
 
         int i = 1;
-
         while (i < 11){ //10'lara kadar olacak. i <= 10;
-            System.out.println(num + "*" + i + "=" + (num * i));
+            System.out.println(num + "*" + i + "=" +(num * i));
             i++;
 
         }
-
 
     }
 }

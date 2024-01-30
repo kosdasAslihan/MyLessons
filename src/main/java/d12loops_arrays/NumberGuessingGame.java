@@ -8,12 +8,12 @@ public class NumberGuessingGame {
 
         //Ornek 1: 0-100 arasi sayi tahmin etme oyununu do-while ile yaziniz.
 
-        //Scanner ve Random classlarından object uretelim
+        //Scanner ve Random classlarindan object uretelim.
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        //0 ile 100 arasinda rastgele sayi uretelim
-        int rastgeleSayi = random.nextInt(101); //20-100
+        //0 ile 100 arasinda rastgele sayi uretelim.
+        int rastgeleSayi = random.nextInt(101);
 
         //Kullanicinin kac kere tahmin yaptigini takip etmek icin bir sayac olusturalim
         int denemeSayisi = 0;
@@ -33,23 +33,25 @@ public class NumberGuessingGame {
             System.out.println("Tahmininizi yapiniz");
             tahminEdilen = scanner.nextInt();
 
-            //Sayaci bir arttiralim
+            //Sayaci arttiralim
             denemeSayisi++;
 
             //Tahmini kontrol edelim
-            if (tahminEdilen < rastgeleSayi){
+            if(tahminEdilen < rastgeleSayi){
                 System.out.println("Sayi daha buyuk"); //sayi kullanicinin tahmininden buyukse ipucu verdik
-            } else if (tahminEdilen > rastgeleSayi) {
+            }else if (tahminEdilen > rastgeleSayi){
                 System.out.println("Sayi daha kucuk"); //sayi kullanicinin tahmininden kucukse ipucu verdik
-            }else {
+            }else{
                 tahminDogrumu = true;
                 System.out.println("Tebrikler, dogru tahmin");
                 System.out.println("Deneme sayisi: " + denemeSayisi);
+
             }
 
-        }
-        while (!tahminDogrumu);
+        }while (!tahminDogrumu);
         scanner.close(); //actiginiz kaynaklari kapatmak iyi bir programlama paratigidir
+
+
 
     }
 }
