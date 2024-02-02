@@ -52,12 +52,13 @@ public class ForLoops02 {
         //int satir = 3;
         //int sutun = 5;
 
-        for (int i = 1; i <= satir; i++){
-            for (int j = 0; j <= sutun; j++){
+        for (int i = 1; i <= satir; i++) {
+            for (int j = 0; j <= sutun; j++) {
                 System.out.print("X ");
             }
             System.out.println(); //pointer'i alt satira almak icin kullanildi
         }
+        System.out.println("------------------");
         //Odev : Asagidaki sekli for-loop kullanarak çizdiriniz.
         /*
 
@@ -67,6 +68,14 @@ public class ForLoops02 {
          * * * *
 
          */
+        int sayi = 4;
+
+        for (int k = 0; k < sayi; k++) {
+            for (int l = 0; l <= k; l++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
 
 
     }

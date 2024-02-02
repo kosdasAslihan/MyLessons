@@ -14,7 +14,7 @@ public class Switch01 {
                switch condition parantezi icine 1) long 2) boolean 3) float 4) double kullanilmaz
          */
         Scanner input = new Scanner(System.in);
-        System.out.println("Baslangic ay numarasini giriniz");
+        System.out.println("Baslangic ay numarasini giriniz: ");
         int aySayisi = input.nextInt();
 
         switch (aySayisi){

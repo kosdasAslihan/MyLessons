@@ -9,7 +9,7 @@ public class IfStatements01 {
         Pazartesi ==> Hafta ici       Cumartesi ==> Hafta sonu*/
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Gun ismi giriniz");
+        System.out.println("Gun ismi giriniz: ");
         String gunIsmi = input.next();
 
         //equals() iki String'in birbirinin aynisi olup olmadigini kontrol eder.
@@ -27,13 +27,12 @@ public class IfStatements01 {
                 gunIsmi.equalsIgnoreCase("Persembe") ||
                 gunIsmi.equalsIgnoreCase("Cuma");
 
-
         if (haftaSonu) {
             System.out.println("Hafta sonu");
         } else if (haftaIci) {
             System.out.println("Hafta ici");
         } else {
-            System.out.println("Gecerli bir gun giriniz");
+            System.out.println("Gecerli gun giriniz");
         }
 
     }

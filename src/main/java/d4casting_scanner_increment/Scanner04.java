@@ -20,6 +20,5 @@ public class Scanner04 {
         System.out.println("Cevre : " + (2*shortSide + 2*longSide));
 
         //ODEV: kisa kenar, uzun kenar kontrolunu dongu ile yapiniz. (while ile yapiniz)
-
     }
 }

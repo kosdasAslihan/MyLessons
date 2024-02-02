@@ -1,4 +1,4 @@
-package d14array_arraylist;
+package d15arraylist_methodcreation;
 
 import java.util.ArrayList;
 
@@ -83,6 +83,19 @@ public class ArrayList01 {
         //size() metodu, ArrayList’teki öğelerin sayısını döndürür. (int return eder)
         int elemanSayisi = ages.size();
         System.out.println(elemanSayisi); //12
+
+        //--------------------------
+        //get(int index) metodu, ArrayList’te belirli bir konumdaki ogeye erismek icin kullanilir.
+
+        int eleman = ages.get(3); //Java Integer'i int'e cevirdi (unboxing). Integer eleman = ages.get(3);'de olur
+        System.out.println(eleman); //3. indexteki 9 geldi
+
+        //set(int index, E element) metodu, ArrayList'te belirtilen indeksteki öğeyi verilen yeni öğeyle değiştirir.
+        // Bu metot, listedeki bir öğeyi güncellemek için kullanılır. Metot, eski öğeyi döndürür.
+
+        Integer a = ages.set(1, 25);
+        System.out.println(a); //2'yi degistirecegim demek istiyor
+        System.out.println(ages); //[1, 25, 3, 9, 28, 12, 7, 5, 11, 1, 2, 3]
 
     }
 }

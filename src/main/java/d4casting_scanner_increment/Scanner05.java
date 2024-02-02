@@ -9,16 +9,14 @@ public class Scanner05 {
         //           45678 ==> 45 + 78 = 123
 
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Lutfen bes basamakli bir sayi giriniz");
+        System.out.println("Bes basamakli bir sayi giriniz: ");
         int num = input.nextInt();
 
         //Java'da bir tamsayiyi baska tamsayiya bolunce sonuc tamsayi cikar
         int ilkIki = num / 1000;
 
-        //% isaretine modulus operatoru denir. Kalan bulunur
+        //% isaretine modulus operatoru denir, kalan bulunur
         int sonIki = num%100;
-
         System.out.println(ilkIki + sonIki);
     }
 }

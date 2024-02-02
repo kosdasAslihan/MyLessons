@@ -8,6 +8,7 @@ public class ForLoops02 {
         int sum = 0;
         for (int i = 578; i > 0; i = i / 10) { //i /=10
             sum = sum + i % 10;
+
         }
         System.out.println("sum = " + sum); //sum = 20
 
