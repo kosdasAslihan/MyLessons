@@ -15,12 +15,11 @@ public class WhileLoops02 {
         System.out.println("Carpim tablosunu gormek icin bir sayi giriniz: ");
         int num = input.nextInt();
 
-        int i = 1;
-        while (i < 11){ //10'lara kadar olacak. i <= 10;
-            System.out.println(num + "*" + i + "=" +(num * i));
-            i++;
-
-        }
+       int i = 1;
+       while (i < 11) { //10'lara kadar olacak. i <= 10;
+           System.out.println(num + "*" + i + "=" + (num * i));
+           i++;
+       }
 
     }
 }

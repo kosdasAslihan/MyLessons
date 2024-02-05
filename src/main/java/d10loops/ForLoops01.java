@@ -11,10 +11,8 @@ public class ForLoops01 {
 
         String s = "Tramvay";
 
-        for (int i = 0; i < s.length(); i++) { //i <= s.length()-1
-
+        for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
-
             if (ch == 'a') {
                 break; //a'yi gorunce donguyu kiracak
             }
@@ -28,15 +26,15 @@ public class ForLoops01 {
 
         String s1 = "Pwd12?Ab";
 
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s1.length(); i++) {
             char ch = s1.charAt(i);
-
-            if (ch >= 'a' && ch <= 'z') { //if(ch>=97&&ch<=122)
-                continue; //islem yapma, donguye devam et, geri kalan kodlari yurutme, arttirma azaltmaya git
-            } else {
-                System.out.print(ch);
-
+            if (ch >= 'a' && ch <= 'z') {
+                continue; //islem yapma, donguye devam et, geri kalan kodlari yurume, arttirma azaltmaya git
             }
+            else {
+                System.out.print(ch); //P12?A
+            }
+
         }
         //-----------------
         System.out.println();
@@ -47,11 +45,11 @@ public class ForLoops01 {
         //son index her zaman length()-1'tir
         String t = "Java";
         String ters = "";
-        for (int i = t.length() - 1; i >= 0; i--) {
-            ters = ters + t.charAt(i);
-            //ters = ters + t.substring(i, i +1);
-        }
-        System.out.println(ters); //avaJ
 
+        for (int i = t.length()-1; i >= 0; i--){
+            ters = ters + t.charAt(i);
+            //ters = ters + t.substring(i, i+1);
+        }
+        System.out.println(ters);
     }
 }

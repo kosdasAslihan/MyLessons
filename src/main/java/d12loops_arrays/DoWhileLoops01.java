@@ -31,7 +31,7 @@ public class DoWhileLoops01 {
         int k = 1;
 
         while (k < 1){
-            System.out.println("Ben while loop'um");
+            System.out.println("Ben while loop'um"); //dongu basta kirildi bu yuzden console'a bu yazi yazilmadi
             k++;
         }
 
@@ -41,7 +41,8 @@ public class DoWhileLoops01 {
         int m = 1;
 
         do {
-            System.out.println("Ben do while loop'um");
+            System.out.println("Ben do while loop'um"); //ilk once arttirma oldugu icin dongu kirilmadi sarti sagladi
+            //bu yuzden console'a yaziyi yazdirdi.
             m++;
         }while (m < 1); //false. m>1 yaparsak true olacaktı ve sonsuz döngüye girip sürekli console'a yazdiracakti.
 

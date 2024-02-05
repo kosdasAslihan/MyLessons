@@ -22,6 +22,7 @@ public class ArrayList02 {
             if (w % 2 != 0){
                 list.set(list.indexOf(w), 11);
             }
+
         }
         System.out.println(list); //[11, 24, 12, 11, 11]
 

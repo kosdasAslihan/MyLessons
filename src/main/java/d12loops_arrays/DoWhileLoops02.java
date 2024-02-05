@@ -17,24 +17,23 @@ public class DoWhileLoops02 {
 
        int counter = 0;
 
-       do{
-           if(counter == 4) {
+       do {
+           if (counter == 4){
                System.out.println("Hesabiniz bloke olmustur.");
                break;
            }
-           System.out.println("Lutfen bir username giriniz");
+           System.out.println("Lutfen bir username giriniz: ");
            String userName = input.next();
 
            System.out.println("Lutfen password giriniz");
            String password = input.next();
 
-           if(userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("pwd123")){
-               System.out.println("Hesabiniza hos geldiniz");
+           if (userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("pwd123")){
+               System.out.println("Hesabiniza Hos Geldiniz");
                break;
            }
            counter++;
-
-       }while (true); //sonsuz dongu olusturduk. Icerden kirilmadigi surece calisacak
+       }while (true); //sonsuz dongu olusturduk, icerden kirilmadigi surece calisacak
 
     }
 }

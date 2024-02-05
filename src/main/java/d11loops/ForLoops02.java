@@ -52,9 +52,10 @@ public class ForLoops02 {
         //int satir = 3;
         //int sutun = 5;
 
-        for (int i = 1; i <= satir; i++) {
-            for (int j = 0; j <= sutun; j++) {
-                System.out.print("X ");
+        for (int i = 1; i <= satir; i++){
+            for (int j = 1; j <= sutun; j++){
+                System.out.print("X");
+
             }
             System.out.println(); //pointer'i alt satira almak icin kullanildi
         }

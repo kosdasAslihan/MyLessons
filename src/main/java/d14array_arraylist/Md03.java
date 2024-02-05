@@ -9,8 +9,8 @@ public class Md03 {
         int enKucuk = ages[0][0]; //15
         int enBuyuk = ages[0][0]; //15
 
-        for (int[] w : ages) {
-            for (int k : w) {
+        for(int[] w : ages){
+            for (int k : w){
                 enKucuk = Math.min(enKucuk, k);
                 enBuyuk = Math.max(enBuyuk, k);
             }

@@ -24,7 +24,7 @@ public class ArrayList04 {
         r.add("Van");
         System.out.println(r); //[Manisa, Nigde, Tokat, Van]
 
-        /*or (String w : r){ //4 defa calisacak
+        /*for (String w : r){ //4 defa calisacak
             if (w.contains("a")) {
                 r.remove(w);
             }

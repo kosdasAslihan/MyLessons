@@ -6,14 +6,14 @@ public class ForLoops02 {
         //      578 ==> 5+7+8=20 ==> Output 20 olmali
 
         int sum = 0;
-        for (int i = 578; i > 0; i = i / 10) { //i /=10
-            sum = sum + i % 10;
 
+        for (int i = 578; i > 0; i = i / 10) {
+            sum = sum + i % 10;
         }
         System.out.println("sum = " + sum); //sum = 20
 
         //--------------------------
-        System.out.println("----------------------");
+            System.out.println("----------------------");
         //Ornek 2: Bir String’teki tekrarsiz karakterleri veren kodu yaziniz
         // Yusuf ==> Ysf
 
@@ -21,16 +21,12 @@ public class ForLoops02 {
         String unique = "";
 
         for (int i = 0; i < t.length(); i++) {
-
             char ch = t.charAt(i); //index verince harfi getirecek
 
-            if (t.indexOf(ch) == t.lastIndexOf(ch)) {
+            if (t.indexOf(ch) == t.lastIndexOf(ch)){
                 unique = unique + ch;
             }
-
         }
-        System.out.println("Tekrarsiz : " + unique);
-
-
+        System.out.println("Tekrarsiz: " + unique); //Tekrarsiz: Ysf
     }
 }

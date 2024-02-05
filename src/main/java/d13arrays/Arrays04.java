@@ -14,7 +14,7 @@ public class Arrays04 {
 
         int ilkIndex = 0;
 
-        for(int w : arr){
+        for (int w : arr){
             if (w != 0){
                 yeniArr[ilkIndex] = w;
                 ilkIndex++;

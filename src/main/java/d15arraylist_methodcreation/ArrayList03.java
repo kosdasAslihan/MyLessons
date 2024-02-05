@@ -26,8 +26,8 @@ public class ArrayList03 {
 
         List<Character> b = new ArrayList<>();
 
-        for (Character w : a){
-            if (!b.contains(w)){ //b listinde donguden gelen(w) elemanlar yoksa
+        for (Character w : a) {
+            if (!b.contains(w)) { //b listinde donguden gelen(w) elemanlar yoksa
                 b.add(w); //b listine gelen elemani ekle
             }
         }

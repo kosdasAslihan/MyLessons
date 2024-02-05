@@ -28,5 +28,14 @@ public class WhileLoops01 {
         }
         System.out.println("--------------");
         //Ornek 2: 23'den 12'ye kadar cift tamsayilari console’a yazdiriniz(12 dahil)
+        int j = 23;
+        while (j > 11){
+            if (j % 2 == 0){
+                System.out.println(j);
+            }
+            j--;
+
+
+        }
     }
 }
