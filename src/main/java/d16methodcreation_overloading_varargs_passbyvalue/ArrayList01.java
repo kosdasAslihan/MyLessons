@@ -1,6 +1,7 @@
 package d16methodcreation_overloading_varargs_passbyvalue;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ArrayList01 {
@@ -20,19 +21,20 @@ public class ArrayList01 {
         nums.add(19);
 
         //Collections.sort(nums);
-        nums.sort(null); //listlerde dogal siralama yapabilmesi icin null yaziliyor
+        nums.sort(null); ////Listlerde dogal siralama yapilabilmesi icin null yaziliyor
         System.out.println(nums); //[10, 12, 19, 23]
 
         int minFark = nums.get(1) - nums.get(0); //2
 
-        for (int i = 1; i < nums.size(); i++) { //1'den baslattik ki 1. index'ten 0. index'i cikaralim
+        for (int i = 1; i < nums.size(); i++) {
             minFark = Math.min(minFark, nums.get(i) - nums.get(i - 1));
         }
         System.out.println(minFark);
+
         //---------------------------
         //En kucuk farki (minFark) hangi sayilardan elde ettigimizi bulalim
-
         for (int i = 1; i < nums.size(); i++) {
+
             //minFark'i hangi cikarma isleminde buldugumuzu arastiracagiz
             //ve o cikarma islemindeki sayilari konsola yazdiracagiz
 

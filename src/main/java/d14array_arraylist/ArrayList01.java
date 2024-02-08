@@ -1,5 +1,6 @@
 package d14array_arraylist;
 
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class ArrayList01 {
@@ -83,6 +84,8 @@ public class ArrayList01 {
         //size() metodu, ArrayList’teki öğelerin sayısını döndürür. (int return eder)
         int elemanSayisi = ages.size();
         System.out.println(elemanSayisi); //12
+
+
 
     }
 }

@@ -102,7 +102,7 @@ public class DateTime01 {
         int day = input.nextInt();
 
         //Kullanicidan alinan verilerle bir tarih olusturalim
-        LocalDate girilenTarih = LocalDate.of(year, month, day);
+        LocalDate girilenTarih = LocalDate.of(year,month,day);
 
         if (girilenTarih.isBefore(LocalDate.now())){
             System.out.println("Gecersiz tarih girdiniz");
