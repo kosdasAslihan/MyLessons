@@ -83,5 +83,9 @@ public class Sb01 {
         System.out.println(sb3.capacity()); //3
 
 
+
+
+
+
     }
 }

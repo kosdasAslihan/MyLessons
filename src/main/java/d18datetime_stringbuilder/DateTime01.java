@@ -10,7 +10,7 @@ public class DateTime01 {
         //Kullanicidan aldiginiz tarih gelecege ait ise “Zamani girebilirsiniz” deyiniz.
 
         Scanner input = new Scanner(System.in);
-        LocalDate girilenTarih = null;
+        LocalDate girilenTarih = null; //LocalDate girilenTarih;
 
         while (true){
             System.out.println("Lutfen yili giriniz: ");
