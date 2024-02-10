@@ -40,7 +40,7 @@ public class Sb01 {
         StringBuilder sb2 = new StringBuilder("Zava");
         StringBuilder sb3 = new StringBuilder("Kava");
         int result = sb2.compareTo(sb3);
-        System.out.println(result); //15
+        System.out.println(result); //15 - ASCII TABLE da z-90 k-75 arasindaki fark 15
 
         //------------------------------------
         //toString() metodu, StringBuilder nesnesinin içeriğini bir String nesnesine dönüştürür.

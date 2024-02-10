@@ -15,10 +15,10 @@ public class StaticBlok {
         System.out.println("Static block 2");
         LocalDate currentDate = LocalDate.now();
 
-        if (currentDate.getMonthValue() == 2){ //Alinan tarihin ayini kontrol eder
+        if (currentDate.getMonthValue() == 2) { //Alinan tarihin ayini kontrol eder
             price = 1000;
             System.out.println(price);
-        }else {
+        } else {
             price = 2000;
             System.out.println(price);
         }
@@ -28,6 +28,7 @@ public class StaticBlok {
         pi = 3.14;
         System.out.println("Static block 1");
     }
+
     public static void main(String[] args) {
 
         /*"static" blok, bir class'in yüklenmesi sırasında otomatik olarak çalışan ve class'in başlatılmasını

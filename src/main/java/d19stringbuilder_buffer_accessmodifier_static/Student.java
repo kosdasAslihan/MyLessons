@@ -1,7 +1,7 @@
 package d19stringbuilder_buffer_accessmodifier_static;
 
 public class Student {
-    //Access Modifier - Erisim Belirleyiciler
+    //Access Modifier - Erisim Belirleyici
     /*
     1)public
     2)protected
@@ -25,7 +25,7 @@ public class Student {
 
     protected String address = "Istanbul";
 
-    String email = "alican";
+    String email = "alican@gmail.com";
 
     private String tcKimlik = "12345678";
 
@@ -35,7 +35,6 @@ public class Student {
                 "stdName='" + stdName + '\'' +
                 ", address='" + address + '\'' +
                 ", email='" + email + '\'' +
-                ", tcKimlik='" + tcKimlik + '\'' +
-                '}';
+                '}'; //tcKimlik'i secmedik private oldugu icin
     }
 }
