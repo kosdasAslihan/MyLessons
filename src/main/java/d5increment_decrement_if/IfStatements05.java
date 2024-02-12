@@ -12,28 +12,24 @@ public class IfStatements05 {
         21-30 (dahil) ==> yetiskin
         30 ustu ==> Tanimlanmamis
         yazdiriniz*/
+
         Scanner input = new Scanner(System.in);
-        System.out.println("Lutfen yasinizi giriniz");
+        System.out.println("Lutfen yasinizi giriniz: ");
         int age = input.nextInt();
 
-        if (age < 0){
+        if (age < 0) {
             System.out.println("Gecerli bir yas giriniz");
-
-        }else if (age < 5) { //age >= 0 && age <= 4 şeklinde de yazabilirdik.
+        } else if (age < 5) { ////age >= 0 && age <= 4 şeklinde de yazabilirdik.
             System.out.println("Bebek");
-
-        }else if (age < 13) {
+        } else if (age < 13) {
             System.out.println("Cocuk");
-
-        }else if (age < 21) {
+        } else if (age < 21) {
             System.out.println("Genc");
-
-        }else if (age < 31) {
+        } else if (age < 30) {
             System.out.println("Yetiskin");
-
-        }else {
+        }else{
             System.out.println("Tanimlanmamis yas");
-
         }
+
     }
 }

@@ -7,7 +7,7 @@ public class IfStatements04 {
         /*Ornek 1: Kullanicidan gun sayisini aldiginizda gun ismini yazan kodu yaziniz
           1==> Pazar, 2 ==> Pazartesi …*/
 
-        Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
         System.out.println("Lutfen kacinci gun oldugunu giriniz: ");
         int num = input.nextInt();
 
@@ -15,19 +15,19 @@ public class IfStatements04 {
             System.out.println("Gun sayilari birden kucuk olamaz");
         } else if (num == 1) {
             System.out.println("Pazar");
-        } else if (num == 2) {
+        }else if (num == 2) {
             System.out.println("Pazartesi");
-        } else if (num == 3) {
+        }else if (num == 3) {
             System.out.println("Sali");
-        } else if (num == 4) {
+        }else if (num == 4) {
             System.out.println("Carsamba");
-        } else if (num == 5) {
+        }else if (num == 5) {
             System.out.println("Persembe");
-        } else if (num == 6) {
+        }else if (num == 6) {
             System.out.println("Cuma");
-        } else if (num == 7) {
+        }else if (num == 7) {
             System.out.println("Cumartesi");
-        }else {
+        }else{
             System.out.println("Gun sayilari 7'den buyuk olamaz");
         }
     }
