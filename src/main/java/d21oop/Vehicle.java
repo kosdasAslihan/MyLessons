@@ -1,4 +1,4 @@
-package d20instanceblock_oop;
+package d21oop;
 
 public class Vehicle {
 
@@ -16,11 +16,11 @@ public class Vehicle {
      */
 
     //Constructor olusturalim
-    public Vehicle(){ //Parametresizler: 1-default 2-no arguman
-        super(); //3
+    public Vehicle(){ //4 //E
+        this("Honda",2024,"Elektrikli");
         System.out.println("Honda,2023,Benzin");
     }
-    public Vehicle(String marka, int yil, String motor){
+    public Vehicle(String marka, int yil, String motor){ //F
         super();
         System.out.println("Honda,2024,Elektrikli");
 
