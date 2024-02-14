@@ -11,11 +11,11 @@ public class InstanceBlock1 {
 
        Instance bloklarının temel özellikleri şunlardır:
 
-    1- Her Örnek İçin Çalışır: Instance blok, bir class'in her örneği oluşturulduğunda çalışır.
-    Yani, her yeni object için bu blok tekrar çalışır.
+       1- Her Örnek İçin Çalışır: Instance blok, bir class'in her örneği oluşturulduğunda çalışır.
+       Yani, her yeni object için bu blok tekrar çalışır.
 
-    2- Kod Tekrarını Önler: Instance blokları kullanarak, her Object'in başlatma işlemlerini veya belirli kod
-    parçalarını tekrar tekrar yazmaktan kaçınırsınız.
+       2- Kod Tekrarını Önler: Instance blokları kullanarak, her Object'in başlatma işlemlerini veya belirli kod
+       parçalarını tekrar tekrar yazmaktan kaçınırsınız.
 
        Gerçek hayattan bir örnek: Bir otomobil Class'i düşünün. Her otomobilin örneği (nesnesi-object'i)
        oluşturulduğunda, otomobilin rengini ve yakıt türünü belirlemek için instance bloklarını kullanabilirsiniz.
