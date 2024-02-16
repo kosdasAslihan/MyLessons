@@ -24,8 +24,8 @@ public class Variables01 {
         //-9,223,372,036,854,775,808 ile 9,223,372,036,854,775,807 arasindaki sayilar icindir.(kentilyon)
 
         //Not: Long olustururken eger deger, Integerlarin maximum degerinden buyuk ise
-        //sonuna “L” koymak zorundasiniz, yoksa “Integer number too large-Tam sayı çok büyük
-        //” hatasi alirsiniz.
+        //sonuna “L” koymak zorundasiniz, yoksa “Integer number too large-Tam sayı çok büyük"
+        //hatasi alirsiniz.
 
         //Ornek 1: Insan vucudundaki hucre sayisi icin variable olusturup deger atamasi yapiniz
         long hucreSayisi = 12345678901L;

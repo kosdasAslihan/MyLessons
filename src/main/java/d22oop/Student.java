@@ -12,8 +12,8 @@ public class Student {
 
     1) Encapsulation, verileri koruma ve gizleme amacı taşır. Encapsulation kullanarak
     read ve write (okuma ve yazma) ozelliklerini birbirinden ayri olarak tanimlayabiliriz.
-    2) İstedigimize okuma, istedigimize yazma yetkisi veririz. ***Bazi insanlar bilgiyi sadece
-    gorsun ama degistiremesin. (Mesela,bir personel bir rapora fiyat bilgisi girsin-write-
+    2) İstedigimize okuma, istedigimize yazma yetkisi veririz.
+    ***Bazi insanlar bilgiyi sadece gorsun ama degistiremesin. (Mesela,bir personel bir rapora fiyat bilgisi girsin-write-
     ama rapor sonucunu(sirket kar zararini) goremesin. Sirket muduru de raporu okusun -read- ama degistiremesin.
     CEO'da maliyet artislarini yansitabilmek icin hem okusun hemde yazsin gibi)
 

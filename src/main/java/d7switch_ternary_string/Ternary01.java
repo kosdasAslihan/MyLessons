@@ -23,7 +23,7 @@ public class Ternary01 {
         int a = 4;
         int b = -7;
 
-        Object sonuc = (a > 0 && b > 0) || (a < 0 && b < 0) ? a * b : "Farkli isaretli sayilari carpamiyorum";
+       Object sonuc = (a > 0 && b > 0) || (a < 0 && b < 0) ? a*b : "Farkli isaretli sayilari carpamiyorum";
         //Object, Java'da butun non-primitive data type'larin ortak parent'idir.
         System.out.println(sonuc);
 

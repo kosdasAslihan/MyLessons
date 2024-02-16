@@ -13,10 +13,11 @@ public class Scanner05 {
         int num = input.nextInt();
 
         //Java'da bir tamsayiyi baska tamsayiya bolunce sonuc tamsayi cikar
-        int ilkIki = num / 1000;
+        int ilkIki = num / 1000; //45,678 yazar ama tamsayi kismini aldigindan oturu 678 kismini atıp 45'i verir
 
         //% isaretine modulus operatoru denir, kalan bulunur
-        int sonIki = num%100;
-        System.out.println(ilkIki + sonIki);
+        int sonIki = num % 100; //kalan 78'i verecektir
+
+        System.out.println(ilkIki+sonIki);
     }
 }

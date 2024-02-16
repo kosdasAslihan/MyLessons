@@ -69,10 +69,11 @@ public class ForLoops02 {
          * * * *
 
          */
+
         int sayi = 4;
 
-        for (int k = 0; k < sayi; k++) {
-            for (int l = 0; l <= k; l++) {
+        for (int k = 0; k < sayi; k++){
+            for (int l = 0; l <= k; l++){
                 System.out.print("* ");
             }
             System.out.println();

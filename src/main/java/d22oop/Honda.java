@@ -26,7 +26,7 @@ public abstract class Honda { //Hata: public final abstract class Honda ==> chil
 
        6)Concrete method'lar child class'lar tarafindan istenirse override edilebilirler
 
-       //7) Final methodlar override edilemedigi icin, abstract olamazlar.
+       7) Final methodlar override edilemedigi icin, abstract olamazlar.
        (***“final” bir access modifier değildir. “final,” bir Java anahtar kelimesidir)
 
        8) Abstract bir class'in abstract bir child'i olabilir ve abstract child parent'inin methodlarini
