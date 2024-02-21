@@ -38,6 +38,6 @@ public class ArrayList04 {
                 i--;
             }
         }
-        System.out.println(r);
+        System.out.println(r); //[Nigde]
     }
 }

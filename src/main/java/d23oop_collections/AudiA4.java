@@ -13,6 +13,7 @@ public class AudiA4 implements Motor, Klima, Fren {
 
     e) Class icinde access modifier yazilmazsa default kabul edildiginden, mecbur public yazariz
     */
+
     //Motor interface'inden override edilenler
     public void eco() {
         System.out.println("Audi A4 ekonomik motor kullanir");

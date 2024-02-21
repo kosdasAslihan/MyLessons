@@ -121,7 +121,7 @@ public class LinkedList01 {
 
         //8) peek() metodu, bir koleksiyonun ilk elemanına erişmek için kullanılır.
         // Bu metod, elemanı koleksiyondan kaldırmaz.
-        // Bu metod, koleksiyon boşsa null dondurur)
+        // Bu metod, koleksiyon boşsa null dondurur
         String s = mylist.peek();
         System.out.println(s); //Hasan
 

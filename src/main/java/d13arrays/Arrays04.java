@@ -9,6 +9,7 @@ public class Arrays04 {
 
         int[] arr = {0, 2, 3, 0, 12, 0};
         int[] yeniArr = new int[arr.length];
+
         System.out.println(Arrays.toString(arr)); //[0, 2, 3, 0, 12, 0]
         System.out.println(Arrays.toString(yeniArr)); //[0, 0, 0, 0, 0, 0]
 
