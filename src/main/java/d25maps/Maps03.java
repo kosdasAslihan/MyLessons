@@ -36,9 +36,28 @@ public class Maps03 {
 
         System.out.println(myMap); //{nasilsin=1, ali=2}
 
+        System.out.println("******************************");
+
         //-------------------------ODEV
         //ornek 2: Size verilen bir String'deki her harfin o String'de kac defa kullanildigini gosteren kodu yaziniz.
         //           “Hello” ==> H=1, e=1, l=2, o=1
+
+        String str = "Hello";
+        String[] harfler = str.split("");
+        System.out.println(Arrays.toString(harfler));
+
+        HashMap<String, Integer> map = new HashMap<>();
+
+        for (String w : harfler){
+            Integer goruntu = map.get(w);
+
+            if (goruntu == null){
+                map.put(w,1);
+            }else{
+                map.put(w,goruntu+1);
+            }
+        }
+        System.out.println(map);
 
     }
 }

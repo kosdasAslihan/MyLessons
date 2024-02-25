@@ -87,8 +87,5 @@ public class Maps01 {
             sum = sum + w.getKey().length() + w.getValue();
         }
         System.out.println(sum); //20
-
-
-
     }
 }
