@@ -1,4 +1,4 @@
-package d4casting_scanner_increment;
+package d22oop.d4casting_scanner_increment;
 
 import java.util.Scanner;
 
@@ -6,7 +6,8 @@ public class Scanner02 {
     public static void main(String[] args) {
         /*Ornek 1:
         Kullanıcıdan;
-        i)Adini ve Soyadini ii)Yaşını
+        i)Adini ve Soyadini
+        ii)Yaşını
         iii)Boyunu
         iv)Kilosunu
         v)Medeni durumunu girmesini isteyin.

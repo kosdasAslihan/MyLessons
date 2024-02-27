@@ -1,4 +1,4 @@
-package d4casting_scanner_increment;
+package d22oop.d4casting_scanner_increment;
 
 //import java.util.Scanner; //Java util package'dan Scanner class
 
