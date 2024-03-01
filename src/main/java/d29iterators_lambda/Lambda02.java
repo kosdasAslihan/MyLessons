@@ -18,6 +18,5 @@ public class Lambda02 {
 
     public static void tekKareYazdir(List<Integer> nums) {
         nums.stream().filter(t -> t % 2 != 0).map(t -> t * t).forEach(t -> System.out.print(t + " "));
-
     }
 }
