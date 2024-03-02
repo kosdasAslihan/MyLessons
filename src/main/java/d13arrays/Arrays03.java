@@ -39,7 +39,7 @@ public class Arrays03 {
 
         System.out.println(Arrays.binarySearch(arr, 2)); //1 dondu, 1. indexte oldugu icin.
         System.out.println(Arrays.binarySearch(arr, 7)); //3. indexte var
-        System.out.println(Arrays.binarySearch(arr, 3)); //-3 olsaydi kacinci sirada olurdu ona bakarak deger veriyor
+        System.out.println(Arrays.binarySearch(arr, 3)); //-3, olsaydi kacinci sirada olurdu ona bakarak deger veriyor
         System.out.println(Arrays.binarySearch(arr, 9)); //-5
 
         String[] str = {"A", "C", "B", "D"};

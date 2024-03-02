@@ -31,7 +31,7 @@ public class Arrays01 {
 
         System.out.println(Arrays.toString(stdNames1)); //[null, null, null]
 
-        //ornek: 5 elemanli notlar adinda, int bir arrray olusturunuz ve console’a yazdiriniz
+        //ornek: 5 elemanli notlar adinda, int bir array olusturunuz ve console’a yazdiriniz
         int[] notlar = new int[5];
         System.out.println(Arrays.toString(notlar)); //[0, 0, 0, 0, 0]
 
