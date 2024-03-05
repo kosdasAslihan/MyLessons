@@ -14,8 +14,11 @@ public class Lambda10 {
         myList.add("Mustafa");
 
         //removeIfLengthGreaterThanFive(myList); //[Ali, Elif, Yusuf, Elif]
+
         //removeIfElementsStartsWithZOrEndWithf(myList); //[Ali, Mustafa]
+
         //removeIfElementsStartsWithZOrEndWithf2(myList); //[Ali, Mustafa]
+
         removeIfElementsContainsX(myList); //[Elif, Yusuf, Elif, Zeynep, Mustafa]
 
 

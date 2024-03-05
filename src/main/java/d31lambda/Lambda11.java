@@ -4,6 +4,7 @@ import java.util.stream.IntStream;
 
 public class Lambda11 {
     public static void main(String[] args) {
+
         /*int sum = getSumFromSevenToSeventy();
         System.out.println(sum); //2464 */
 

@@ -8,7 +8,7 @@ public class MethodOverloading01 {
 
         OOP'nin (Object Oriented Programming-Nesne yönelimli programlama) prensiplerinin biridir.
         Polymorphism (cok bicimlilik) demektir.
-        Bir method'u, istedigimiz sonuclari alacak sekilde, farkli farkli sekilllerde calistirabilmek icin kullanilir.
+        Bir method'u, istedigimiz sonuclari alacak sekilde, farkli farkli sekillerde calistirabilmek icin kullanilir.
         */
 
         // i.Method Overloading - Asiri Yukleme
@@ -63,7 +63,6 @@ public class MethodOverloading01 {
 
     /*
     Soru 1: private method'lar overload edilebilir mi?
-
     Cevap 1: private method'lar overload edilebilirler cunku;
     overload islemi tek class icinde yapilir, private methodlar ayni class'in icinden
     ulasilabilir oldugundan overload'a engel degildir.

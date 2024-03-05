@@ -17,6 +17,7 @@ public class Lambda09 {
         myList.add("Mustafa");
 
         //eHaric(myList); //Ali Yusuf Zeynep Mustafa
+
         //bestenAzTekrarsiz(myList); //Ali Elif
 
         /*List<String> donusList = bestenCokBuyuk(myList);

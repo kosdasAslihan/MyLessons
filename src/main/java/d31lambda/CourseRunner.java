@@ -1,7 +1,9 @@
 package d31lambda;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 public class CourseRunner {
     public static void main(String[] args) {
@@ -63,7 +65,7 @@ public class CourseRunner {
 
         //---------------------------------
         //6) Kurs isimleri icinde “German” isminin hic bulunmadigini kontrol eden kodu yaziniz.
-        boolean result6 = coursesList.stream().noneMatch(t-> t.getCourseName().contains("German"));
+        boolean result6 = coursesList.stream().noneMatch(t -> t.getCourseName().contains("German"));
         System.out.println(result6); //true
 
         //7)Average score’u en yuksek olan kursun ismini console yazdiran kodu yaziniz.
@@ -73,7 +75,6 @@ public class CourseRunner {
         //c) reversed, Bir Comparator’ın sıralama sırasını tersine çevirir.
         //d) findFirst, Stream’deki ilk elemanı döndüren bir Optional döner.
 
-
-
     }
+
 }
